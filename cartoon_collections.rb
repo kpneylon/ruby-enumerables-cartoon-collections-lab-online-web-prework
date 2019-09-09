@@ -15,6 +15,7 @@ def long_planteer_calls(long_planteer_calls)
     if call.length > 4
       answer = true
     end
+  end
     answer
 end
 
