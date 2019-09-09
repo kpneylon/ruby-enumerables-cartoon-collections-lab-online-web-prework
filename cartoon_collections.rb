@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(planeteer)
   answer = false
-  long_planeteer.collect do |call|
+  planeteer.collect do |call|
     if call.length > 4
       answer = true
     end
