@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(array)
   long = false
-  array.each do ||
+  array.each do |call|
 end
 
 def find_the_cheese# code an argument here
